@@ -1,0 +1,8 @@
+body {
+	text-align: center;
+}
+#main {
+    border-radius: 15px; 
+    padding: 15px; 
+    background-color: var(--mainblobwithlist);
+}

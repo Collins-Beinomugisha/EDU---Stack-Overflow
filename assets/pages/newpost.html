@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>NewPosts</title>
+  </head>
+  <body>
+    <div id="main">
+      <h2>New Post:</h2>
+      <h4>Title</h4>
+      <div>
+        <input type="text" id="title" />
+      </div>
+      <br />
+      <h4>Content</h4>
+      <div>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea>
+      </div>
+      <br />
+      <div id="error" style="display: none">Error Uploading file!</div>
+      <div class="imageadd">
+        <h4>Attach image/audio/video</h4>
+        <input type="file" name="file" accept="image/*,video/*,audio/*" />
+      </div>
+      <div id="imageprogress" style="display: none">
+        Please wait for attachment to upload...
+      </div>
+      <progress id="imageprogress" style="display: none"></progress>
+      <div id="imageadded" style="display: none">
+        "Attachment added"
+        <button id="removeimage">Remove</button>
+      </div>
+      <br />
+      <br />
+      <a class="button onli" id="send">Submit</a>
+      <br />
+    </div>
+    <br />
+    <br />
+    <footer>
+      <div class="footerout">
+        <a href="/index.html" class="button">Home</a>
+        <br />
+      </div>
+      <br />
+      <a href="./privacy.html" class="button">Privacy</a>
+      <a href="./tos.html" class="button">Terms of service</a>
+      <br />
+      <br />
+      Official President : Richard Zulu
+      <br />
+      Notice : this is my capstone project at OutBox EDU.
+      <br />
+      &copy; 2021
+      <a href="#" target="none">EDU-Stack Team</a>
+    </footer>
+  </body>
+</html>
